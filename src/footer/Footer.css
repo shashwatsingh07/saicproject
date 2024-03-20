@@ -1,0 +1,41 @@
+.main-footer {
+    color: white;
+    background-color: #201f1f;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.col{
+    
+    column-count: 4;
+    column-gap: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.col li:hover{
+    color: crimson;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-sm{
+    background-color: rgb(108, 96, 96);
+    font-size: 15px;
+    padding: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+
